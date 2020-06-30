@@ -1,0 +1,187 @@
+.container {
+  
+}
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+/* atuacao */
+#atuacao {
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  padding: 40px 10px;
+  border: #333 1px solid;
+}
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 550px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+#showcase .showcase-content h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+  color: #f4f4f4;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about-info .info-right, #about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
+
+#contato1 input{
+  width: 100%;
+}
+#contato1 h1 {
+  position: relative;
+  font-size: 22px;
+
+}
+#contato1 h2 {
+  position: relative;
+  font-size: 18px;
+  top: -40px;
+}
+#contato1 form{
+  position: relative;
+  font-size: 18px;
+  top: -40px;
+  
+}
+#contato1 textarea {
+  height: 100px;
+  width: 100%;
+}
+.bg-contato form{
+  width: 100px;
+
+}
+
+
+#main-footer {
+  background: #333;
+  width: 100%;
+  margin-top: 0px;
+  border-bottom: #584537 1px solid;
+  border-top: #664935 1px solid;
+  height: 200px;
+  text-align: center;
+  
+}
+
+#main-footer-pub  {
+  background: #333;
+  width: 100%;
+  border-bottom: #664935 1px solid;
+  border-top: #664935 1px solid;
+  text-align: center;
+ 
+  
+}
+
+#main-footer h2, #main-footer-pub h2 {
+  color: #996F50;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#main-footer p, #main-footer-pub p  {
+  color: #f4f4f4;
+}
+
+#main-footer .container, #main-footer-pub .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+
+.foot-logo img{
+  position: relative;
+  width: 200px;
+  opacity: .5;
+  top: 40px;
+  left: 0%;
+}
+.foot-logo-contato  img{
+  position: relative;
+  width: 200px;
+  opacity: .5;
+  top: -100px;
+  left: 10%;
+}
+.foot-contato .whats, .foot-contato .email  {
+  width: 30px;
+  height: 30px;
+  margin-left: -80px;
+}
+.foot-contato{
+  margin-left: 0px;
+  
+}
+.foot-endereco{
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 50px;
+  font-size: small;
+  width: 200px;
+}
+.rodape {
+  display: block;
+  text-align: center;
+  background: #444;
+  color: #fff;
+
+  padding: 20px;
+}
+
+
