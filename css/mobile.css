@@ -64,7 +64,14 @@
   float: none;
   width: 100%;
 }
-
+#about-info {
+  border: #333 1px solid;
+  margin: 30px 10px;
+}
+.cab h1{
+  font-size: 40pt;
+  line-height: 1;
+}
 #about-info .info-right {
   margin-top: 30px;
 }
@@ -105,7 +112,9 @@
   width: 100px;
 
 }
-
+.black{
+  background-color: #333;
+}
 
 #main-footer {
   background: #333;
@@ -161,7 +170,7 @@
 .foot-contato .whats, .foot-contato .email  {
   width: 30px;
   height: 30px;
-  margin-left: -80px;
+  margin-left: -20px;
 }
 .foot-contato{
   margin-left: 0px;

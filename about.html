@@ -7,6 +7,8 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <!-- aos link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Sobre</title>
 </head>
 <body>
@@ -26,14 +28,16 @@
 
   <section class="cab">
     <div class="showcase-sobre"></div>
-    <div class="container">
+    <div class="container" data-aos="fade-down">
       <h1>Lorem, ipsum dolor.</h1>
     </div>
   </section>
 
   <section id="about-info" class="bg-light py-3">
     <div class="container">
-      <div class="info-left">
+      <div class="info-left" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <h1 class="l-heading"><span class="text-primary">Sobre</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam pariatur necessitatibus quidem quis hic reiciendis cumque at! Nihil exercitationem aperiam dolore sequi eveniet et aliquid neque dolorem, labore praesentium!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa assumenda facilis cupiditate dignissimos nisi iure doloremque molestiae laboriosam repellendus cumque.</p>
@@ -48,12 +52,12 @@
   <div class="clr"></div>
 
   <section id="testimonials" class="py-3">
-    <div class="container">
-      <div class="testimonial  bg-primary">
+    <div class="container" > 
+      <div class="testimonial  bg-primary" data-aos="fade-right">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam quod impedit magni corrupti reiciendis debitis accusamus, iusto ipsum saepe praesentium nobis dolor et? Officiis, soluta nulla dolorum quae ab dicta deserunt, non quibusdam quo numquam laborum porro, architecto illo!</p>
       </div>
 
-      <div class="testimonial bg-primary">
+      <div class="testimonial bg-primary" data-aos="fade-left">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam quod impedit magni corrupti reiciendis debitis accusamus, iusto ipsum saepe praesentium nobis dolor et? Officiis, soluta nulla dolorum quae ab dicta deserunt, non quibusdam quo numquam laborum porro, architecto illo!</p>
       </div>
     </div>
@@ -62,7 +66,7 @@
   <footer id="main-footer">
     <div class="container">
     <div class="foot-contato">
-      <h2>Contato</h2>
+      
       <p><svg xmlns="http://www.w3.org/2000/svg" class= "whats" x="0px" y="0px"
         width="64" height="64"
         viewBox="0 0 172 172"
@@ -85,5 +89,9 @@
   <div class="rodape">
     <p>Diogo Durau Sartori | Escritório de Advocacia &copy; 2020.</p>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
 </body>
 </html>

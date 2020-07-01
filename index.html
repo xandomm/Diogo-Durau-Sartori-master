@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.gif">
+  
+  <!-- aos link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
@@ -40,7 +43,7 @@
     <div class="info-content">
       <h2><span class="text-primary">Visão</span> Estratégica</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quae dignissimos quibusdam, incidunt unde qui? Maiores quo ratione quod exercitationem assumenda similique! Aperiam quaerat voluptatibus asperiores! Delectus, numquam vero. Iste hic molestiae quibusdam velit, iure enim distinctio impedit molestias odio.</p>
-      <a href="about.html" class="btn btn-light">Saiba Mais</a>
+      <div data-aos="zoom-in-left"><a href="about.html" class="btn btn-light" >Saiba Mais</a></div>
     </div>
   </section>
 
@@ -49,7 +52,7 @@
   <footer id="main-footer">
     <div class="container">
     <div class="foot-contato">
-      <h2>Contato</h2>
+      
       <p><svg xmlns="http://www.w3.org/2000/svg" class= "whats" x="0px" y="0px"
         width="64" height="64"
         viewBox="0 0 172 172"
@@ -63,14 +66,21 @@
       
       <p>Avenida do Contorno 3800</p>
     </div>
-    <div class="foot-logo">
+    <div class="foot-logo" data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="5000">
       <img src="./Papelaria_Sartori/LOGO/Ativo 1.png" alt="">
     </div>
   </div>
   </footer>
 
-  <div class="rodape">
+  <div class="rodape" >
     <p>Diogo Durau Sartori | Escritório de Advocacia &copy; 2020.</p>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
 </body>
 </html>
